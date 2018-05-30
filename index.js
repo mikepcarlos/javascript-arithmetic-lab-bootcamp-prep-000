@@ -45,3 +45,9 @@ var n = '2';
 function makeInt(n) {
   return parseInt(n, 10);
 }
+
+var n = 2.2;
+
+function preserveDecimal(n) {
+  return parseInt(n, 4);
+}
