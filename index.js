@@ -52,3 +52,9 @@ function preserveDecimal(n) {
   return parseInt(n, 4);
 }
 
+var n = 2.2;
+
+function preserveDecimal(n) {
+  return parseInt(n);
+}
+
