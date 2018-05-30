@@ -55,6 +55,6 @@ function preserveDecimal(n) {
 var n = 2.2;
 
 function preserveDecimal(n) {
-  return parseInt(n);
+  return parseFloat(n);
 }
 
